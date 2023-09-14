@@ -26,10 +26,12 @@ body{
    margin-right: 120px;
 }
 .container .leftside{
+  
     position: relative;
     flex: 30%;
-    background: #fff;
+    /* background: #fff; */
     border-right: 1px solid rgba(0,0,0,0.2);
+   
 }
 .container .rightside{
     position: relative;
@@ -43,8 +45,8 @@ body{
     left: 0;
     width: 100%;
     height: 100%;
-    background: url(./back 1.jpg);
-    opacity: 0.06;
+    background: url(./ZWbv3h.png);
+    opacity: 0.09;
 }
 .header{
     position: relative;
@@ -55,6 +57,7 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 0 15px;
+    position: sticky;
 }
 .userimg{
     position: relative;
@@ -119,8 +122,10 @@ body{
 }
 .chatlist{
     position: relative;
-    height: calc(100% -110px);
+    height: 100vh;
     overflow: auto;
+    overflow-y: scroll;
+    background: url(./download.jpg);
 }
 .chatlist .block{
     position: relative;
@@ -213,9 +218,10 @@ body{
 .chatbox{
     position: relative;
     width: 100%;
-    height: calc(100%-120px);
+    height: 100vh;
     padding: 20px;
     overflow-y: auto;
+   
 }
 .message{
     position: relative;
@@ -276,6 +282,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
 }
 .chatbox-input ion-icon{
     cursor: pointer;
@@ -298,3 +305,5 @@ body{
 .logo{
     padding-right: 15px;
 }
+
+
